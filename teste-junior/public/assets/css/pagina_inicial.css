@@ -1,0 +1,79 @@
+body {
+    background-color: #151515; /* cor de fundo dark */
+    color: #fff; /* cor do texto branca */
+    font-family: 'Arial', sans-serif; /* fonte padrão */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 112vh;
+}
+
+header {
+    text-align: center;
+    background-color: #151515; /* cor de fundo do cabeçalho */
+    padding: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1, p {
+    margin: 0;
+}
+
+section {
+    margin: 48px 0;
+}
+#todos-crud-section button {
+    /*background-color: rgba(100, 98, 98, 0.685); /* cor de fundo */
+    color: white; /* cor do texto */
+    padding: 16px 16px; /* preenchimento para melhor aparência */
+    border: none; /* remove a borda padrão do botão */
+    cursor: pointer; /* adicionei um cursor ao passar o mouse sobre o botão */
+    border-radius: 30px; /* bordas arredondadas */
+    margin: 8px; /* adicionei margem para espaçamento entre os botões */
+
+}
+
+#todos-crud-section button:hover {
+    background-color: rgba(0, 255, 255, 0.856); /*cor de fundo ao passar o mouse sobre o botão */
+    box-shadow: 0 0 5px cyan,
+    0 0 2px cyan, 0 0 4px cyan,
+    0 0 7px cyan, 0 0 18px cyan;
+}
+
+#crud-produto-section label,
+#crud-cliente-section label,
+#crud-pedidos-compra-section label {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #fff;
+}
+
+.criar_produto,
+.criar_cliente,
+.criar_pedido{
+    background-color: rgb(83, 83, 239);
+}
+.ver_produto,
+.ver_cliente,
+.ver_pedido{
+    background-color: rgb(1, 141, 1);
+}
+.editar_produto,
+.editar_cliente,
+.editar_pedido{
+    background-color: rgb(205, 205, 40);
+}
+.excluir_produto,
+.excluir_cliente,
+.excluir_pedido{
+    background-color: rgb(176, 35, 35);
+}
+.header_p{
+    color: rgb(249, 122, 166);
+}
+ 
+

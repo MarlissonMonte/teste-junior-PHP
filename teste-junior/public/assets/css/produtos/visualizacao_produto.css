@@ -1,0 +1,74 @@
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 30%;
+    padding: 8px 1px;
+    margin-bottom: 3px;
+    border-radius: 30px;
+    padding-left: 10px;
+
+}
+body {
+    background-color: #151515;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px; 
+}
+
+button {
+    flex: 1;
+    margin-right: 5px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+    button:hover {
+        background-color: rgba(0, 255, 255, 0.856); 
+        box-shadow: 0 0 5px cyan,
+        0 0 1px cyan, 0 0 2px cyan,
+        0 0 3px cyan, 0 0 4px cyan;
+}
+
+.salvar_produto{
+    background-color: green;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 30px;
+        
+    }
+
+.voltar_visualizacao{
+    background-color: red;
+    color: white;
+    padding: 16px 180px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+}
